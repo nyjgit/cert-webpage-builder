@@ -1,0 +1,458 @@
+{
+    "50d0f22a3f2a": {
+        "name": "Linux administrator",
+        "imgURL": "assets/files/50d0f22a3f2a.pdf",
+        "textURL": "assets/files/50d0f22a3f2a.pdf",
+        "subjects": [
+            "linux"
+        ],
+        "rowIndex": 0,
+        "display": true
+    },
+    "81067dec3dea": {
+        "name": "Bash Scripting",
+        "imgURL": "assets/files/81067dec3dea.pdf",
+        "textURL": "assets/files/81067dec3dea.pdf",
+        "subjects": [
+            "linux"
+        ],
+        "rowIndex": 1,
+        "display": true
+    },
+    "75a8a2920fa2": {
+        "name": "Introduction to Bash Scripting",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/5bcd3e41725cc7fa9405d6c01ac18bde30ed5882?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/5bcd3e41725cc7fa9405d6c01ac18bde30ed5882",
+        "subjects": [
+            "linux"
+        ],
+        "rowIndex": 2,
+        "display": true
+    },
+    "474505c187a3": {
+        "name": "Introduction to Linux",
+        "imgURL": "assets/files/474505c187a3.pdf",
+        "textURL": "assets/files/474505c187a3.pdf",
+        "subjects": [
+            "linux"
+        ],
+        "rowIndex": 3,
+        "display": true
+    },
+    "177bfccb3ed4": {
+        "name": "Command Line",
+        "imgURL": "assets/files/177bfccb3ed4.pdf",
+        "textURL": "assets/files/177bfccb3ed4.pdf",
+        "subjects": [
+            "linux"
+        ],
+        "rowIndex": 4,
+        "display": true
+    },
+    "a62dcf236b58": {
+        "name": "Introduction to Shell",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/e8124b451c5a3f9539267adc2ca03c60c2d0b04c?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/e8124b451c5a3f9539267adc2ca03c60c2d0b04c",
+        "subjects": [
+            "linux"
+        ],
+        "rowIndex": 5,
+        "display": true
+    },
+    "551b5297d23a": {
+        "name": "DevOps in practice with Kubernetes",
+        "imgURL": "assets/files/551b5297d23a.pdf",
+        "textURL": "assets/files/551b5297d23a.pdf",
+        "subjects": [
+            "devops",
+            "git",
+            "kubernetes",
+            "docker"
+        ],
+        "rowIndex": 0,
+        "display": true
+    },
+    "bd81f2ce5fbc": {
+        "name": "DevOps Concepts",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/7e7c83971328991fd24707b4be64416406c604ca?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/7e7c83971328991fd24707b4be64416406c604ca",
+        "subjects": [
+            "devops"
+        ],
+        "rowIndex": 1,
+        "display": true
+    },
+    "f63a6b766046": {
+        "name": "Introduction to DevOps",
+        "imgURL": "assets/files/f63a6b766046.pdf",
+        "textURL": "assets/files/f63a6b766046.pdf",
+        "subjects": [
+            "devops"
+        ],
+        "rowIndex": 2,
+        "display": true
+    },
+    "25593c169c2b": {
+        "name": "GitHub Concepts",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/68de4703d6d35b3cbda339b42ec7852473b6861e?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/68de4703d6d35b3cbda339b42ec7852473b6861e",
+        "subjects": [
+            "git"
+        ],
+        "rowIndex": 1,
+        "display": true
+    },
+    "760b069b783b": {
+        "name": "Introduction to Git",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/7a71aa6e6da90e018577ba962d5e810449530309?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/7a71aa6e6da90e018577ba962d5e810449530309",
+        "subjects": [
+            "git"
+        ],
+        "rowIndex": 2,
+        "display": true
+    },
+    "d10352cc7b4c": {
+        "name": "Version Control",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-verziokezeles-63526.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-verziokezeles-63526.pdf",
+        "subjects": [
+            "git"
+        ],
+        "rowIndex": 3,
+        "display": true
+    },
+    "acb9ed9a0038": {
+        "name": "Introduction to Kubernetes",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/fbd4b2448fe3d032b5271a0411441e81098edb39?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/fbd4b2448fe3d032b5271a0411441e81098edb39",
+        "subjects": [
+            "kubernetes"
+        ],
+        "rowIndex": 1,
+        "display": true
+    },
+    "a0a9f8cb46e1": {
+        "name": "Docker based applications in Cloud",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-docker-alapu-alkalmazasok-cloud-ban-73531.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-docker-alapu-alkalmazasok-cloud-ban-73531.pdf",
+        "subjects": [
+            "docker"
+        ],
+        "rowIndex": 1,
+        "display": true
+    },
+    "5171d0e55346": {
+        "name": "Introduction to Docker",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/2291ee7e65de51a5399606ab064db72290f0e6a7?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/2291ee7e65de51a5399606ab064db72290f0e6a7",
+        "subjects": [
+            "docker"
+        ],
+        "rowIndex": 2,
+        "display": true
+    },
+    "bdae8bf07886": {
+        "name": "Containerization and Virtualization Concepts",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/76b348e36eb86697ac18c1ab51e68b3d4c3e3864?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/76b348e36eb86697ac18c1ab51e68b3d4c3e3864",
+        "subjects": [
+            "docker"
+        ],
+        "rowIndex": 3,
+        "display": true
+    },
+    "0085fd521e60": {
+        "name": "AZ-104: Azure Administrator Associate",
+        "imgURL": "assets/files/0085fd521e60.png",
+        "textURL": "https://learn.microsoft.com/en-us/users/jnosnygr-3903/credentials/34e4a6da68b49a79",
+        "subjects": [
+            "azure"
+        ],
+        "rowIndex": 0,
+        "display": true
+    },
+    "c2f5a2a410eb": {
+        "name": "AZ-104 Microsoft Azure Administrator Exam Prep",
+        "imgURL": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-8b6fdc0e-d2da-4182-9129-843de5b3ef55.pdf",
+        "textURL": "https://www.udemy.com/certificate/UC-8b6fdc0e-d2da-4182-9129-843de5b3ef55/",
+        "subjects": [
+            "azure"
+        ],
+        "rowIndex": 0,
+        "display": false
+    },
+    "0aeef568f603": {
+        "name": "AZ-104 Microsoft Azure Administrator course with simulations",
+        "imgURL": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-e41e0082-66bb-4fb6-9366-8de77175b75d.pdf",
+        "textURL": "https://www.udemy.com/certificate/UC-e41e0082-66bb-4fb6-9366-8de77175b75d/",
+        "subjects": [
+            "azure"
+        ],
+        "rowIndex": 0,
+        "display": false
+    },
+    "436dd6c6ec3c": {
+        "name": "AZ-900: Azure Fundamentals",
+        "imgURL": "assets/files/436dd6c6ec3c.png",
+        "textURL": "https://learn.microsoft.com/en-us/users/jnosnygr-3903/credentials/2369d50af77d063c",
+        "subjects": [
+            "azure"
+        ],
+        "rowIndex": 1,
+        "display": true
+    },
+    "3e77ebb3d653": {
+        "name": "Advanced Cloud - Azure",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-halado-cloud-azure-72538.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-halado-cloud-azure-72538.pdf",
+        "subjects": [
+            "azure"
+        ],
+        "rowIndex": 2,
+        "display": true
+    },
+    "952f704bf6ad": {
+        "name": "AZ-900 Microsoft Azure Fundamentals Exam Prep",
+        "imgURL": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-cbb0a00b-6da3-4b6e-aa59-859da0445568.pdf",
+        "textURL": "https://www.udemy.com/certificate/UC-cbb0a00b-6da3-4b6e-aa59-859da0445568/",
+        "subjects": [
+            "azure"
+        ],
+        "rowIndex": 2,
+        "display": false
+    },
+    "269e9d5d6d21": {
+        "name": "Azure Fundamentals",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/track/8488c6b638eaaeb7bdb261a36c0916af51682fd3?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/track/8488c6b638eaaeb7bdb261a36c0916af51682fd3",
+        "subjects": [
+            "azure"
+        ],
+        "rowIndex": 3,
+        "display": true
+    },
+    "352d874875c4": {
+        "name": "Cloud Fundamentals - Azure (2024)",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-cloud-alapozo-azure-61344.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-cloud-alapozo-azure-61344.pdf",
+        "subjects": [
+            "azure"
+        ],
+        "rowIndex": 4,
+        "display": true
+    },
+    "a10429c6eda2": {
+        "name": "Cloud Fundamentals - Azure (2023)",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-cloud-alapozo-azure-49312.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-cloud-alapozo-azure-49312.pdf",
+        "subjects": [
+            "azure"
+        ],
+        "rowIndex": 5,
+        "display": true
+    },
+    "3e2ebad509ee": {
+        "name": "Intro to Cloud Computing",
+        "imgURL": "assets/files/3e2ebad509ee.pdf",
+        "textURL": "assets/files/3e2ebad509ee.pdf",
+        "subjects": [
+            "azure",
+            "aws"
+        ],
+        "rowIndex": 6,
+        "display": false
+    },
+    "8d9eebc4d851": {
+        "name": "Cloud Computing Fundamentals",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-cloud-computing-alapismeretek-49628.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-cloud-computing-alapismeretek-49628.pdf",
+        "subjects": [
+            "azure",
+            "aws"
+        ],
+        "rowIndex": 7,
+        "display": false
+    },
+    "efd53c812459": {
+        "name": "Cloud Jobs and Careers",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-cloud-poziciok-es-karrierut-50451.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-cloud-poziciok-es-karrierut-50451.pdf",
+        "subjects": [
+            "azure",
+            "aws"
+        ],
+        "rowIndex": 8,
+        "display": false
+    },
+    "5bd61408ebb4": {
+        "name": "AWS Cloud Fundamentals",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-aws-cloud-alapozo-tanfolyam-55763.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-aws-cloud-alapozo-tanfolyam-55763.pdf",
+        "subjects": [
+            "aws"
+        ],
+        "rowIndex": 0,
+        "display": true
+    },
+    "bafaedfe6952": {
+        "name": "Python 3",
+        "imgURL": "assets/files/bafaedfe6952.pdf",
+        "textURL": "assets/files/bafaedfe6952.pdf",
+        "subjects": [
+            "python"
+        ],
+        "rowIndex": 0,
+        "display": true
+    },
+    "e21fc301fc92": {
+        "name": "Python Advanced",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-python-programozas-halado-kepzes-81757.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-python-programozas-halado-kepzes-81757.pdf",
+        "subjects": [
+            "python"
+        ],
+        "rowIndex": 1,
+        "display": true
+    },
+    "5e09519345bc": {
+        "name": "Python Beginner",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-python-programozas-tanfolyam-74414.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-python-programozas-tanfolyam-74414.pdf",
+        "subjects": [
+            "python"
+        ],
+        "rowIndex": 2,
+        "display": true
+    },
+    "762a10ac43b3": {
+        "name": "Introduction to Python",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/79face388dacf6082583759522a7f6c38dfb02e8?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/79face388dacf6082583759522a7f6c38dfb02e8",
+        "subjects": [
+            "python"
+        ],
+        "rowIndex": 3,
+        "display": true
+    },
+    "5df2b1e02c79": {
+        "name": "Python Fundamentals",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-python-programozas-kezdo-63915.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-python-programozas-kezdo-63915.pdf",
+        "subjects": [
+            "python"
+        ],
+        "rowIndex": 4,
+        "display": true
+    },
+    "cd096a367bb7": {
+        "name": "SQL Database Management",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-sql-adatbaziskezeles-2-szint-84220.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-sql-adatbaziskezeles-2-szint-84220.pdf",
+        "subjects": [
+            "sql"
+        ],
+        "rowIndex": 0,
+        "display": true
+    },
+    "485eafc225fe": {
+        "name": "SQL Queries",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-sql-lekerdezesek-tanfolyam-67934.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-sql-lekerdezesek-tanfolyam-67934.pdf",
+        "subjects": [
+            "sql"
+        ],
+        "rowIndex": 1,
+        "display": true
+    },
+    "bf4a29676171": {
+        "name": "Intermediate SQL",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/51d57b93fbae6d086ec1b10d9cfae12956a41925?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/51d57b93fbae6d086ec1b10d9cfae12956a41925",
+        "subjects": [
+            "sql"
+        ],
+        "rowIndex": 2,
+        "display": true
+    },
+    "5e574617bd4e": {
+        "name": "Introduction to SQL Server",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/040904d97d520a3c23219be0a8cc4f59fcfc4804?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/040904d97d520a3c23219be0a8cc4f59fcfc4804",
+        "subjects": [
+            "sql"
+        ],
+        "rowIndex": 3,
+        "display": true
+    },
+    "4fbc25e3ff09": {
+        "name": "Introduction to SQL",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/2ee0abbfb9c567c48b0803c5a4a9f6ae23ee3cd8?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/2ee0abbfb9c567c48b0803c5a4a9f6ae23ee3cd8",
+        "subjects": [
+            "sql"
+        ],
+        "rowIndex": 4,
+        "display": true
+    },
+    "ce3427f22fe7": {
+        "name": "Database and SQL Fundamentals",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-adatbazis-es-sql-alapismeretek-tanfolyam-58134.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-adatbazis-es-sql-alapismeretek-tanfolyam-58134.pdf",
+        "subjects": [
+            "sql"
+        ],
+        "rowIndex": 5,
+        "display": true
+    },
+    "93c17e3fc33c": {
+        "name": "Data Science and SQL Fundamentals",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-adatbaziselmeleti-es-sql-alapismeretek-57300.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-adatbaziselmeleti-es-sql-alapismeretek-57300.pdf",
+        "subjects": [
+            "sql"
+        ],
+        "rowIndex": 6,
+        "display": false
+    },
+    "37490122d048": {
+        "name": "Fundamentals of Cybersecurity",
+        "imgURL": "assets/files/37490122d048.pdf",
+        "textURL": "assets/files/37490122d048.pdf",
+        "subjects": [
+            "other"
+        ],
+        "rowIndex": 0,
+        "display": true
+    },
+    "84be1321a9ac": {
+        "name": "Introduction to Agile frameworks",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-bevezetes-az-agilis-mukodesbe-67036.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-bevezetes-az-agilis-mukodesbe-67036.pdf",
+        "subjects": [
+            "other"
+        ],
+        "rowIndex": 1,
+        "display": true
+    },
+    "46aa40c90335": {
+        "name": "Introduction to Jira",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-bevezetes-a-jira-vilagaba-64885.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-bevezetes-a-jira-vilagaba-64885.pdf",
+        "subjects": [
+            "other"
+        ],
+        "rowIndex": 2,
+        "display": true
+    },
+    "99a926f2f199": {
+        "name": "ITIL 4 - Introduction to Service Management",
+        "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-itil-4-ismerkedes-a-szolgaltatasmenedzsmenttel-72876.pdf",
+        "textURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-itil-4-ismerkedes-a-szolgaltatasmenedzsmenttel-72876.pdf",
+        "subjects": [
+            "other"
+        ],
+        "rowIndex": 3,
+        "display": true
+    }
+}

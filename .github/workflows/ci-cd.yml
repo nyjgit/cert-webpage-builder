@@ -1,0 +1,144 @@
+name: CI/CD
+
+on:
+  push:
+    branches:
+    - main
+    - update/**
+    - feature/**
+    - data/**
+    - failure-scenarios/**
+  workflow_dispatch:
+
+jobs:
+  # unit-tests:
+
+  e2e-tests:
+
+    # needs: unit-tests
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Set up python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: End-to-end tests
+      run: |
+        cd tests/e2e
+        python end-to-end_test.py
+
+
+  input-validation:
+
+    needs: e2e-tests
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Set up python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Validate input data
+      run: |
+        cd src
+        python validator.py
+
+
+  non-critical-checks:
+
+    needs: input-validation
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Set up python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Check for non-critical issues
+      run: |
+        cd src
+        python non_critical_checks.py
+      continue-on-error: true
+
+
+  build:
+
+    needs: input-validation
+    runs-on: ubuntu-latest
+    outputs:
+      html_changed: ${{ steps.check_html.outputs.html_changed }}
+    permissions:
+      contents: read
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    
+    - name: Set up python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+    
+    - name: Build HTML file
+      run: |
+        cd src
+        python builder.py
+    
+    - name: Compare generated HTML with live HTML
+      if: ${{ github.ref == 'refs/heads/main' }}
+      id: check_html
+      run: |
+        curl -f --retry 1 --max-time 5 -H "User-Agent: GH Actions workflow" https://nyjanos.com/skills.html -o current_live.html
+        if ! cmp -s output/skills.html current_live.html; then
+          echo "html_changed=true" >> $GITHUB_OUTPUT
+        else
+          echo "html_changed=false" >> $GITHUB_OUTPUT
+          echo "::notice::No changes in HTML, skipping deployment."
+        fi
+    
+    - name: Upload HTML as artifact
+      if: ${{ github.ref == 'refs/heads/main' && steps.check_html.outputs.html_changed == 'true' }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: webpage
+        path: output/skills.html
+
+
+  deploy:
+
+    needs: build
+    if: ${{ github.ref == 'refs/heads/main' && needs.build.outputs.html_changed == 'true' }}
+    runs-on: self-hosted
+    permissions:
+      contents: read
+
+    steps:
+    - name: Download artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: webpage
+      
+    - name: Copy HTML file to /var/www/html
+      run: |
+        cp /var/www/html/skills.html ~/backups/website/skills_$(date +"%Y%m%d%H%M%S").html
+        sudo cp skills.html /var/www/html/skills.html
+        rm skills.html

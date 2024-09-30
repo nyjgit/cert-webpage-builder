@@ -1,0 +1,54 @@
+{
+    "linux": {
+        "URLs": [
+            "assets/svg/linux.svg",
+            "assets/svg/ubuntu.svg",
+            "assets/svg/bash.svg"
+        ]
+    },
+    "devops": {
+        "URLs": [
+            "assets/svg/cicd.svg",
+            "assets/svg/prometheus.svg",
+            "assets/svg/graphana.svg"
+        ]
+    },
+    "git": {
+        "URLs": [
+            "assets/svg/git.svg",
+            "assets/svg/github.svg"
+        ]
+    },
+    "kubernetes": {
+        "URLs": [
+            "assets/svg/kubernetes.svg",
+            "assets/svg/helm.svg",
+            "assets/svg/kustomize.svg"
+        ]
+    },
+    "docker": {
+        "URLs": [
+            "assets/svg/docker.svg"
+        ]
+    },
+    "azure": {
+        "URLs": [
+            "assets/svg/azure.svg"
+        ]
+    },
+    "aws": {
+        "URLs": [
+            "assets/svg/aws.svg"
+        ]
+    },
+    "python": {
+        "URLs": [
+            "assets/svg/python.svg"
+        ]
+    },
+    "sql": {
+        "URLs": [
+            "assets/svg/sql.svg"
+        ]
+    }
+}

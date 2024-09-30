@@ -1,0 +1,34 @@
+{
+    "subject1": {
+        "URLs": [
+            "assets/svg/subject1a.svg",
+            "assets/svg/subject1b.svg",
+            "assets/svg/subject1c.svg"
+        ]
+    },
+    "subject2": {
+        "URLs": [
+            "assets/svg/subject2a.svg",
+            "assets/svg/subject2b.svg",
+            "assets/svg/subject2c.svg"
+        ]
+    },
+    "subject3": {
+        "URLs": [
+            "assets/svg/subject3a.svg",
+            "assets/svg/subject3b.svg"
+        ]
+    },
+    "subject4": {
+        "URLs": [
+            "assets/svg/subject4a.svg",
+            "assets/svg/subject4b.svg",
+            "assets/svg/subject4c.svg"
+        ]
+    },
+    "subject5": {
+        "URLs": [
+            "assets/svg/subject5.svg"
+        ]
+    }
+}

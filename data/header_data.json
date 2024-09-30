@@ -1,0 +1,14 @@
+{
+    "order": [
+        ["Linux","linux"],
+        ["DevOps","devops"],
+        ["Git/GitHub","git"],
+        ["Kubernetes","kubernetes"],
+        ["Docker","docker"],
+        ["Azure","azure"],
+        ["AWS","aws"],
+        ["Python","python"],
+        ["SQL","sql"],
+        ["IT Security, Agile, Jira, ITIL 4","other"]
+    ]
+}
