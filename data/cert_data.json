@@ -132,6 +132,16 @@
         "rowIndex": 1,
         "display": true
     },
+    "4d47c6537f66": {
+        "name": "Intermediate Docker",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/e461e3d08635b5ca8a07bf1d20bb15f7a3e07bbb?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/e461e3d08635b5ca8a07bf1d20bb15f7a3e07bbb",
+        "subjects": [
+            "docker"
+        ],
+        "rowIndex": 1,
+        "display": true
+    },
     "a0a9f8cb46e1": {
         "name": "Docker based applications in Cloud",
         "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-docker-alapu-alkalmazasok-cloud-ban-73531.pdf",
@@ -139,7 +149,7 @@
         "subjects": [
             "docker"
         ],
-        "rowIndex": 1,
+        "rowIndex": 2,
         "display": true
     },
     "5171d0e55346": {
@@ -149,7 +159,7 @@
         "subjects": [
             "docker"
         ],
-        "rowIndex": 2,
+        "rowIndex": 3,
         "display": true
     },
     "bdae8bf07886": {
@@ -159,7 +169,7 @@
         "subjects": [
             "docker"
         ],
-        "rowIndex": 3,
+        "rowIndex": 4,
         "display": true
     },
     "0085fd521e60": {
