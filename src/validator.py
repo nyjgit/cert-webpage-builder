@@ -60,10 +60,10 @@ def main(cert_data_filename, svg_data_filename, header_data_filename):
         validate_row_order(subject_list, cert_data)       # checking if each (subject - row_index) combination is unique (==> each cell will have max. 1 entry)
         validate_column_order(subject_list, cert_data)    # colspan in the final table requires some colums to be grouped together
     except CertDataError as e:
-        print(f'\nData validation failed:\ncert_data.json: {e}')
+        print(f'\nData validation failed:\ncert_data.json:\n{e}')
         sys.exit(1)
     except HeaderDataError as e:
-        print(f'\nData validation failed:\nheader_data.json: {e}')
+        print(f'\nData validation failed:\nheader_data.json:\n{e}')
         sys.exit(1)
 
 
