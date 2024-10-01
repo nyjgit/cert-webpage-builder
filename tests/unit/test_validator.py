@@ -6,7 +6,7 @@ import unittest
 from validator import validate_row_order, validate_column_order, CertDataError, HeaderDataError
 from data_loader import load_json_data
 
-class DataLoaderTest(unittest.TestCase):
+class ValidatorTest(unittest.TestCase):
 
     def setUp(self):
         self.valid_test_dict = load_json_data("test_data/cert_data_valid.json")
