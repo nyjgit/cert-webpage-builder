@@ -189,7 +189,7 @@ def main(cert_data_filename, svg_data_filename, header_data_filename, base_html)
     table = "<table>"
     table += build_table_header(svg_data, all_subjects_ordered, get_indentation)
     table += build_table_body(cert_data, table_of_IDs, get_indentation)
-    table += get_indentation(0) + "</table>"
+    table += "</table>"
 
     html_content = content_before_table + table + content_after_table
 
