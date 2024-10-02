@@ -14,7 +14,7 @@
         "imgURL": "assets/files/81067dec3dea.pdf",
         "textURL": "assets/files/81067dec3dea.pdf",
         "subjects": [
-            "linux"
+            
         ],
         "rowIndex": 1,
         "display": true
@@ -24,7 +24,7 @@
         "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/5bcd3e41725cc7fa9405d6c01ac18bde30ed5882?raw=1",
         "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/5bcd3e41725cc7fa9405d6c01ac18bde30ed5882",
         "subjects": [
-            "linux"
+            "nonexistentsubject1"
         ],
         "rowIndex": 2,
         "display": true
@@ -34,7 +34,7 @@
         "imgURL": "assets/files/474505c187a3.pdf",
         "textURL": "assets/files/474505c187a3.pdf",
         "subjects": [
-            "linux"
+            
         ],
         "rowIndex": 3,
         "display": true
@@ -44,7 +44,7 @@
         "imgURL": "assets/files/177bfccb3ed4.pdf",
         "textURL": "assets/files/177bfccb3ed4.pdf",
         "subjects": [
-            "linux"
+            "nonexistentsubject2"
         ],
         "rowIndex": 4,
         "display": true
