@@ -11,6 +11,7 @@ This project is designed to automatically generate and deploy a webpage that sho
 
 ![Workflow overview](images/workflow_overview.png)
 
+- **Unit Tests**: Runs unit tests on the .py files in the src directory.
 - **End-to-End Tests**: Runs end-to-end tests using test input JSON data and test templates, comparing the generated output with the expected result.
 - **Input Data Validation**: Validates the input JSON data files.
 - **Check for Non-Critical Issues**: Displays warnings about non-critical issues in the input data.
