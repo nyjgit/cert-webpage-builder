@@ -145,5 +145,5 @@ jobs:
     - name: Copy HTML file to /var/www/html
       run: |
         cp /var/www/html/skills.html ~/backups/website/skills_$(date +"%Y%m%d%H%M%S").html
-        sudo cp skills.html /var/www/html/skills.html
+        cp skills.html /var/www/html/skills.html
         rm skills.html
