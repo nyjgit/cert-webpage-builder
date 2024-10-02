@@ -53,10 +53,10 @@ if __name__ == "__main__":
     header_data_file = "test_data/header_data.json"
 
     base_html_templates = [
-        "test_templates/indent_2.html",
-        "test_templates/indent_4.html",
-        "test_templates/no_indent.html",
-        "test_templates/compact.html"
+        "../test_templates/indent_2.html",
+        "../test_templates/indent_4.html",
+        "../test_templates/no_indent.html",
+        "../test_templates/compact.html"
     ]
     out_files_expected = [
         "expected_results/indent_2.html",
