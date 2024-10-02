@@ -121,21 +121,8 @@ jobs:
       run: |
         cd src
         python builder.py
-    
-    - name: Compare generated HTML with live HTML
-      if: ${{ github.ref == 'refs/heads/main' }}
-      id: check_html
-      run: |
-        curl -f --retry 1 --max-time 5 -H "User-Agent: GH Actions workflow" https://nyjanos.com/skills.html -o current_live.html
-        if ! cmp -s output/skills.html current_live.html; then
-          echo "html_changed=true" >> $GITHUB_OUTPUT
-        else
-          echo "html_changed=false" >> $GITHUB_OUTPUT
-          echo "::notice::No changes in HTML, skipping deployment."
-        fi
-    
+
     - name: Upload HTML as artifact
-      if: ${{ github.ref == 'refs/heads/main' && steps.check_html.outputs.html_changed == 'true' }}
       uses: actions/upload-artifact@v4
       with:
         name: webpage
@@ -145,7 +132,6 @@ jobs:
   deploy:
 
     needs: build
-    if: ${{ github.ref == 'refs/heads/main' && needs.build.outputs.html_changed == 'true' }}
     runs-on: self-hosted
     permissions:
       contents: read
