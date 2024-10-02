@@ -123,7 +123,6 @@ jobs:
         python builder.py
     
     - name: Compare generated HTML with live HTML
-      if: ${{ github.ref == 'refs/heads/main' }}
       id: check_html
       run: |
         curl -f --retry 1 --max-time 5 -H "User-Agent: GH Actions workflow" https://nyjanos.com/skills.html -o current_live.html
