@@ -1,7 +1,7 @@
 {
     "order": [
-        ["Linux","linux"],
         ["DevOps","devops"],
+        ["Linux","linux"],
         ["Git/GitHub","git"],
         ["Kubernetes","kubernetes"],
         ["Docker","docker"],
