@@ -295,6 +295,16 @@
         "rowIndex": 8,
         "display": false
     },
+    "c3ce3866c353": {
+        "name": "Introduction to AWS",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/8ee604012c80dc288e359fd41e7c2224f716ece3?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/8ee604012c80dc288e359fd41e7c2224f716ece3",
+        "subjects": [
+            "aws"
+        ],
+        "rowIndex": 0,
+        "display": true
+    },
     "5bd61408ebb4": {
         "name": "AWS Cloud Fundamentals",
         "imgURL": "https://mentorklub.gerillaoneletrajz.hu/wp-content/uploads/gom-certificates/nyoger-janos-aws-cloud-alapozo-tanfolyam-55763.pdf",
@@ -302,7 +312,7 @@
         "subjects": [
             "aws"
         ],
-        "rowIndex": 0,
+        "rowIndex": 1,
         "display": true
     },
     "bafaedfe6952": {
