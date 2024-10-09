@@ -295,10 +295,10 @@
         "rowIndex": 8,
         "display": false
     },
-    "c3ce3866c353": {
-        "name": "Introduction to AWS",
-        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/course/8ee604012c80dc288e359fd41e7c2224f716ece3?raw=1",
-        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/course/8ee604012c80dc288e359fd41e7c2224f716ece3",
+    "45f22209a06f": {
+        "name": "AWS Fundamentals",
+        "imgURL": "https://www.datacamp.com/statement-of-accomplishment/track/2706a518a5d0e0f6b3038bdc1dffa9288bb0eb28?raw=1",
+        "textURL": "https://www.datacamp.com/completed/statement-of-accomplishment/track/2706a518a5d0e0f6b3038bdc1dffa9288bb0eb28",
         "subjects": [
             "aws"
         ],
